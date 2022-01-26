@@ -3,14 +3,14 @@
     padding: 0px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-
+    transition: all 0.5s;
     /* outline: 1px solid red; */
 }
 
 body{
     width: 100vw;
     height: 100vh;
-
+    background-image: url(img/gify.gif);
 }
 
 /* display flex column */
@@ -47,6 +47,7 @@ a, i{
 /* nav */
 .nav{
     margin-bottom: auto;
+    gap: max(0px, 2vw);
 }
 
 .nav i{
@@ -60,6 +61,10 @@ img{
 }
 .nav a{
     color: #7157c7;
+}
+
+.left-menu{
+    gap: max(0px, 2vw);
 }
 
 /* center */
@@ -95,7 +100,8 @@ button{
 /* footer */
 footer{
     margin-top: auto;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(68, 68, 68);
+    opacity: 50%;
 }
 
 footer>a{
@@ -117,3 +123,6 @@ button:hover{
     border-left: 3px solid #7157c7;
 }
   
+
+
+
